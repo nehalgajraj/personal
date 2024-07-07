@@ -33,7 +33,7 @@ export default {
       title: "",
     },
     footer: {
-      createdWith: "By",
+      createdWith: "With ❤️‍🔥 from",
     },
     graph: {
       title: "Graph View",
