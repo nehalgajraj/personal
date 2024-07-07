@@ -22,18 +22,18 @@ export default {
       quote: "Quote",
     },
     backlinks: {
-      title: "Backlinks",
-      noBacklinksFound: "No backlinks found",
+      title: "",
+      noBacklinksFound: "",
     },
     themeToggle: {
       lightMode: "Light mode",
       darkMode: "Dark mode",
     },
     explorer: {
-      title: "Explorer",
+      title: "",
     },
     footer: {
-      createdWith: "Created with",
+      createdWith: "By",
     },
     graph: {
       title: "Graph View",
@@ -48,7 +48,7 @@ export default {
     },
     search: {
       title: "Search",
-      searchBarPlaceholder: "Search for something",
+      searchBarPlaceholder: "Search for nothing",
     },
     tableOfContents: {
       title: "Table of Contents",
