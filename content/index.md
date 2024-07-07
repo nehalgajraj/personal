@@ -1,4 +1,4 @@
 ---
 title: hello
 ---
-I’m Nehal, pronounced næhāl. 
+I’m Nehal, pronounced næhāl.
