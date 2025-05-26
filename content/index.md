@@ -7,7 +7,7 @@ tags: [welcome, about, digital-garden]
 
 # Hello, I'm Nehal (pronounced _næhāl_)
 
-Currently working on eval at [CodeRabbit.ai](https://coderabbit.ai), evaluating how rabbits hop.
+Currently working on eval at [CodeRabbit.ai](https://coderabbit.ai), evaluating rabbits' hops.
 
 🧠 **[[papers/|Research & Papers]]** - AI, machine learning, and interpretability research
 
@@ -18,7 +18,5 @@ Currently working on eval at [CodeRabbit.ai](https://coderabbit.ai), evaluating 
 🦙 **[[llama/|LLaMA & Language Models]]** - Large language model experiments
 
 🔍 **[[interpretability/|AI Interpretability]]** - Understanding how AI systems work
-
----
 
 _Managed by [Claude Code](https://claude.ai/code)_
