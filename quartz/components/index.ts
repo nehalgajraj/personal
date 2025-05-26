@@ -43,3 +43,7 @@ export {
   NotFound,
   Breadcrumbs,
 }
+
+export function ReaderMode(): import("./types").QuartzComponent {
+  throw new Error("Function not implemented.")
+}

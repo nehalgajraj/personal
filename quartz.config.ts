@@ -13,14 +13,14 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagId : "G-DNETZD1VGV"
+      tagId: "G-DNETZD1VGV",
     },
     locale: "en-US",
-    baseUrl: "nehalgajraj.com",
+    baseUrl: "https://nehalgajraj.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
+      fontOrigin: "local",
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
@@ -39,11 +39,11 @@ const config: QuartzConfig = {
         //   highlight: "rgba(143, 159, 169, 0.15)",
         // },
         lightMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
+          light: "#fafafa",
+          lightgray: "#e5e5e5",
+          gray: "#b8b8b8",
+          darkgray: "#4e4e4e",
+          dark: "#2b2b2b",
           secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
@@ -81,10 +81,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [
-      Plugin.RemoveDrafts(),
-      Plugin.ExplicitPublish()
-    ],
+    filters: [Plugin.RemoveDrafts(), Plugin.ExplicitPublish()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -94,10 +91,14 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        rssLimit: 10,
+        rssFullHtml: true,
+        includeEmptyFiles: false,
       }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      Plugin.CNAME(),
     ],
   },
 }

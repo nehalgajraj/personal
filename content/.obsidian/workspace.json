@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "25d5ef72898935f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fb33bafca378383",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d240305cb34e7166",
+            "type": "leaf",
+            "state": {
+              "type": "video",
+              "state": {
+                "file": "Untitled 1080p (2).mp4"
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1080p (2)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72efc425920cbb4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b332563070ee1cb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a6d132c46ef5030",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d330dd6f22c52f3d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c906b218f44132cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "277ddeec18e9e201",
+    "type": "split",
+    "children": [
+      {
+        "id": "88cf2bfa260a4cf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce5f515174643996",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "papers/4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4"
+            }
+          },
+          {
+            "id": "d9d531835323ae85",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "papers/4.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 4"
+            }
+          },
+          {
+            "id": "d5fc7b4637aa916d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9d2f3163f2573618",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "papers/4.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 4"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d240305cb34e7166",
+  "lastOpenFiles": ["papers/4.md", "papers/5.md", "papers/2.md", "writing/2.md"]
+}

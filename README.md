@@ -29,8 +29,9 @@ gh pr create --title "Feature: Your Feature Name"
 ## 📚 Documentation
 
 See [CLAUDE.md](./CLAUDE.md) for comprehensive documentation including:
+
 - Architecture overview and configuration
-- Plugin system and customization points  
+- Plugin system and customization points
 - Development workflow and common commands
 - Content creation guidelines
 

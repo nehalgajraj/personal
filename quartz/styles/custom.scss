@@ -1,3 +1,152 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* Custom styles for nehalgajraj.com */
+
+/* Improved typography and spacing */
+body {
+  line-height: 1.6;
+}
+
+/* Enhanced navigation styling */
+.page-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Better link styling */
+a {
+  transition: color 0.2s ease;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-bottom-color: var(--secondary);
+}
+
+/* Improved code blocks */
+pre {
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+code:not(pre > code) {
+  background-color: var(--lightgray);
+  padding: 0.15rem 0.3rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Enhanced blockquotes */
+blockquote {
+  border-left: 4px solid var(--secondary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
+
+/* Better table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--lightgray);
+}
+
+th {
+  font-weight: 600;
+  background-color: var(--light);
+}
+
+/* Improved image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Better spacing for content sections */
+.content > *:first-child {
+  margin-top: 0;
+}
+
+.content > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Enhanced tag styling */
+.tag {
+  background-color: var(--secondary);
+  color: var(--light);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.tag:hover {
+  background-color: var(--tertiary);
+  border-bottom: none;
+}
+
+/* Improved responsive design */
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Dark mode enhancements */
+:root[saved-theme="dark"] {
+  .tag {
+    background-color: var(--secondary);
+    color: var(--dark);
+  }
+
+  code:not(pre > code) {
+    background-color: var(--lightgray);
+    color: var(--dark);
+  }
+}
+
+/* Focus states for accessibility */
+a:focus,
+button:focus,
+input:focus {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions */
+* {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+/* Better spacing for content meta */
+.content-meta {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--lightgray);
+}

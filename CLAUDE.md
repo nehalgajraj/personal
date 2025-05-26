@@ -40,6 +40,7 @@ This is a **Quartz 4.2.3** digital garden/blog website for Nehal (nehalgajraj.co
 ## 🎨 Current Theme Settings
 
 The site uses a custom dark theme with:
+
 - **Fonts**: Schibsted Grotesk (headers), Source Sans Pro (body), IBM Plex Mono (code)
 - **Colors**: Dark mode with blue/teal accents (#7b97aa, #84a59d)
 - **Analytics**: Google Analytics (G-DNETZD1VGV)
@@ -70,6 +71,7 @@ npm run test
 ## 🧩 Plugin Configuration
 
 **Transformers** (content processing):
+
 - FrontMatter: YAML frontmatter parsing
 - CreatedModifiedDate: File date extraction
 - SyntaxHighlighting: Code highlighting (github themes)
@@ -79,10 +81,12 @@ npm run test
 - Latex: Math rendering with KaTeX
 
 **Filters** (content filtering):
+
 - RemoveDrafts: Hide draft content
 - ExplicitPublish: Only show files with `publish: true`
 
 **Emitters** (output generation):
+
 - ContentPage: Individual page generation
 - FolderPage: Directory listing pages
 - TagPage: Tag-based pages
@@ -92,6 +96,7 @@ npm run test
 ## 📝 Content Creation
 
 Create `.md` files in `content/` with frontmatter:
+
 ```yaml
 ---
 title: "Page Title"
@@ -114,11 +119,13 @@ tags: [tag1, tag2]
 ## 🎯 Component Layout
 
 **Content Pages** (`quartz.layout.ts:12`):
+
 - Left: PageTitle, Search, Explorer
 - Right: TableOfContents, Backlinks
 - Before content: Breadcrumbs, ArticleTitle, ContentMeta
 
 **List Pages** (`quartz.layout.ts:36`):
+
 - Left: PageTitle, Search, Explorer
 - Right: (empty)
 - Before content: Breadcrumbs, ArticleTitle, ContentMeta
@@ -148,6 +155,7 @@ gh pr create --title "Feature: Your Feature Name" --body "Description of changes
 ```
 
 This ensures:
+
 - Code review and quality control
 - Proper change tracking and documentation
 - Rollback capability if issues arise
@@ -181,7 +189,7 @@ This ensures:
 - **Markdown processing**: remark, rehype ecosystem
 - **Math rendering**: KaTeX
 - **Code highlighting**: Shiki
-- **Search**: FlexSearch  
+- **Search**: FlexSearch
 - **UI**: Preact (React alternative)
 - **Build**: esbuild, typescript
 - **Git integration**: @napi-rs/simple-git
