@@ -15,13 +15,7 @@ body {
 
 /* Better link styling */
 a {
-  transition: color 0.2s ease;
   text-decoration: none;
-  border-bottom: 1px solid transparent;
-}
-
-a:hover {
-  border-bottom-color: var(--secondary);
 }
 
 /* Improved code blocks */
@@ -93,13 +87,8 @@ img {
   margin-right: 0.5rem;
   margin-bottom: 0.25rem;
   display: inline-block;
-  transition: background-color 0.2s ease;
 }
 
-.tag:hover {
-  background-color: var(--tertiary);
-  border-bottom: none;
-}
 
 /* Improved responsive design */
 @media (max-width: 600px) {
@@ -137,12 +126,6 @@ input:focus {
   outline-offset: 2px;
 }
 
-/* Smooth transitions */
-* {
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
 
 /* Better spacing for content meta */
 .content-meta {
