@@ -5,9 +5,7 @@ publish: true
 tags: [welcome, about, digital-garden]
 ---
 
-# Hello, I'm Nehal (pronounced _næhāl_)
-
-Currently working on eval at [CodeRabbit.ai](https://coderabbit.ai), evaluating rabbits' hops.
+Working on evals at [CodeRabbit](https://coderabbit.ai)
 
 🧠 **[[papers/|Research & Papers]]** - AI, machine learning, and interpretability research
 
