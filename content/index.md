@@ -1,5 +1,5 @@
 ---
-title: Welcome to my digital garden
+title: næhāl blog
 description: Nehal's personal blog and digital garden featuring thoughts on AI, machine learning, interpretability, and creative writing.
 publish: true
 tags: [welcome, about, digital-garden]

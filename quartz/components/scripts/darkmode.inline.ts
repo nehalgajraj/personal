@@ -1,6 +1,7 @@
-const userPref = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"
-const currentTheme = localStorage.getItem("theme") ?? userPref
+// Force dark mode always
+const currentTheme = "dark"
 document.documentElement.setAttribute("saved-theme", currentTheme)
+localStorage.setItem("theme", currentTheme)
 
 const emitThemeChangeEvent = (theme: "light" | "dark") => {
   const event: CustomEventMap["themechange"] = new CustomEvent("themechange", {
@@ -11,17 +12,19 @@ const emitThemeChangeEvent = (theme: "light" | "dark") => {
 
 document.addEventListener("nav", () => {
   const switchTheme = (e: Event) => {
-    const newTheme = (e.target as HTMLInputElement)?.checked ? "dark" : "light"
+    // Always stay dark - ignore toggle
+    const newTheme = "dark"
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)
     emitThemeChangeEvent(newTheme)
   }
 
   const themeChange = (e: MediaQueryListEvent) => {
-    const newTheme = e.matches ? "dark" : "light"
+    // Always stay dark
+    const newTheme = "dark"
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)
-    toggleSwitch.checked = e.matches
+    toggleSwitch.checked = true
     emitThemeChangeEvent(newTheme)
   }
 

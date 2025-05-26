@@ -19,16 +19,21 @@ section {
   color: var(--darkgray);
 }
 
-// Force dark mode
-:root {
-  --light: #161618;
-  --lightgray: #393639;
-  --gray: #646464;
-  --darkgray: #d4d4d4;
-  --dark: #ebebec;
-  --secondary: #7b97aa;
-  --tertiary: #84a59d;
-  --highlight: rgba(143, 159, 169, 0.15);
+// Force dark mode always
+:root,
+:root[saved-theme="light"],
+:root[saved-theme="dark"],
+body,
+body[saved-theme="light"],
+body[saved-theme="dark"] {
+  --light: #161618 !important;
+  --lightgray: #393639 !important;
+  --gray: #646464 !important;
+  --darkgray: #d4d4d4 !important;
+  --dark: #ebebec !important;
+  --secondary: #7b97aa !important;
+  --tertiary: #84a59d !important;
+  --highlight: rgba(143, 159, 169, 0.15) !important;
 }
 
 .text-highlight {

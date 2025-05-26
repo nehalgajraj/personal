@@ -151,7 +151,7 @@ git commit -m "descriptive commit message"
 
 # Push and create PR
 git push -u origin feature/your-feature-name
-gh pr create --title "Feature: Your Feature Name" --body "Description of changes"
+gh pr create --repo nehalgajraj/personal --title "Feature: Your Feature Name" --body "Description of changes"
 ```
 
 This ensures:
