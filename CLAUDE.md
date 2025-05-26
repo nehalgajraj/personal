@@ -130,6 +130,29 @@ tags: [tag1, tag2]
 3. **Build**: Run `npx quartz build` to generate `public/`
 4. **Deploy**: Upload `public/` contents to web server
 
+### 🔄 Git Workflow
+
+**IMPORTANT**: After completing any feature or significant change, always create a pull request:
+
+```bash
+# Create feature branch
+git checkout -b feature/your-feature-name
+
+# Make changes and commit
+git add .
+git commit -m "descriptive commit message"
+
+# Push and create PR
+git push -u origin feature/your-feature-name
+gh pr create --title "Feature: Your Feature Name" --body "Description of changes"
+```
+
+This ensures:
+- Code review and quality control
+- Proper change tracking and documentation
+- Rollback capability if issues arise
+- Collaborative development workflow
+
 ## 🔧 Customization Points
 
 - **Theme colors**: `quartz.config.ts:30-61`
