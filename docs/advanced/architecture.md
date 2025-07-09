@@ -2,7 +2,6 @@
 title: Architecture
 ---
 
-Quartz is a static site generator. How does it work?
 
 This question is best answered by tracing what happens when a user (you!) runs `npx quartz build` in the command line:
 
