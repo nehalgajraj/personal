@@ -11,12 +11,14 @@
             "id": "d240305cb34e7166",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1080p (2).mp4"
+                "file": "blogs/1.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1080p (2)"
+              "title": "1"
             }
           }
         ]
@@ -158,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -167,5 +170,24 @@
     }
   },
   "active": "d240305cb34e7166",
-  "lastOpenFiles": ["papers/4.md", "papers/5.md", "papers/2.md", "writing/2.md"]
+  "lastOpenFiles": [
+    "2024-07-12.md",
+    "blogs/1.md",
+    "Pasted image 20251124124355.png",
+    "papers/1.md",
+    "interpretability/1.md",
+    "papers/2.md",
+    "papers/3.md",
+    "llama/1.md",
+    "interpretability/Untitled.md",
+    "reading.md",
+    "blogs",
+    "Untitled 1080p.mp4",
+    "Untitled 1080p (2).mp4",
+    "WhatsApp Image 2024-11-23 at 14.34.29_7efbb032.jpg",
+    "writing/1.md",
+    "papers/4.md",
+    "papers/5.md",
+    "writing/2.md"
+  ]
 }

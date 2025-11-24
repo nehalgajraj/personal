@@ -20,43 +20,33 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "local",
+      fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Source Sans 3",
         code: "IBM Plex Mono",
       },
       colors: {
-        // lightMode: {
-        //   light: "#faf8f8",
-        //   lightgray: "#e5e5e5",
-        //   gray: "#b8b8b8",
-        //   darkgray: "#4e4e4e",
-        //   dark: "#2b2b2b",
-        //   secondary: "#284b63",
-        //   tertiary: "#84a59d",
-        //   highlight: "rgba(143, 159, 169, 0.15)",
-        // },
         lightMode: {
-          light: "#fafafa",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#eff1f5", // base (Latte)
+          lightgray: "#e6e9ef", // mantle
+          gray: "#bcc0cc", // overlay0
+          darkgray: "#4c4f69", // text
+          dark: "#4c4f69", // text
+          secondary: "#8839ef", // mauve
+          tertiary: "#ea76cb", // pink
+          highlight: "rgba(136, 57, 239, 0.15)", // mauve with opacity
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#1e1e2e", // base (Mocha)
+          lightgray: "#181825", // mantle
+          gray: "#6c7086", // overlay0
+          darkgray: "#cdd6f4", // text
+          dark: "#cdd6f4", // text
+          secondary: "#cba6f7", // mauve
+          tertiary: "#f5c2e7", // pink
+          highlight: "rgba(203, 166, 247, 0.15)", // mauve with opacity
         },
       },
     },
