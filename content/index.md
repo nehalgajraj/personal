@@ -17,4 +17,4 @@ Working on evals at [CodeRabbit](https://coderabbit.ai)
 
 🔍 **[[interpretability/|AI Interpretability]]** - Understanding how AI systems work
 
-_Managed by [Claude Code](https://claude.ai/code)_
+_Managed by [Gemini](https://deepmind.google/technologies/gemini/)_

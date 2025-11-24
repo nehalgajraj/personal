@@ -1,4 +1,4 @@
-node_modules
+tinode_modules
 public/
 .quartz-cache/
 tsconfig.tsbuildinfo
@@ -6,3 +6,4 @@ tsconfig.tsbuildinfo
 .DS_Store
 .env
 .env.local
+node_modules

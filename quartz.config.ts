@@ -31,7 +31,7 @@ const config: QuartzConfig = {
         lightMode: {
           light: "#eff1f5", // base (Latte)
           lightgray: "#e6e9ef", // mantle
-          gray: "#bcc0cc", // overlay0
+          gray: "#9ca0b0", // overlay0 (slightly warmer/darker than previous)
           darkgray: "#4c4f69", // text
           dark: "#4c4f69", // text
           secondary: "#8839ef", // mauve
@@ -41,7 +41,7 @@ const config: QuartzConfig = {
         darkMode: {
           light: "#1e1e2e", // base (Mocha)
           lightgray: "#181825", // mantle
-          gray: "#6c7086", // overlay0
+          gray: "#9399b2", // overlay0 (warmer)
           darkgray: "#cdd6f4", // text
           dark: "#cdd6f4", // text
           secondary: "#cba6f7", // mauve
