@@ -28,7 +28,8 @@ header {
   align-items: center;
   gap: 1.5rem;
   margin: 3rem 0 2rem;
-  margin: 3rem 0 2rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
 }
 
 .page-title {
@@ -48,9 +49,21 @@ header .darkmode {
 }
 
 /* Content Animations */
-/* Content Animations Removed for Simplicity */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .content {
-  /* No animation */
+  animation: fadeIn 0.8s ease 0.1s forwards;
+  opacity: 0;
 }
 
 /* Typography Enhancements */
@@ -191,31 +204,4 @@ img:hover {
   outline: 2px solid var(--secondary);
   outline-offset: 4px;
   border-radius: 2px;
-}
-
-/* Home Page Simplification */
-body[data-slug="index"] {
-
-  .left,
-  .right {
-    display: none !important;
-  }
-
-  .center {
-    margin: 0 auto;
-    max-width: 750px;
-    /* Wider content for home */
-    text-align: center;
-    /* Optional: Center text on home */
-  }
-
-  .page-title {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-  }
 }
